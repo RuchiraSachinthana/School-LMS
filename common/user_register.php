@@ -1,19 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
-    <title>Register-3 | Equation - Multipurpose Bootstrap Dashboard Template </title>
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico"/>
-    <!-- BEGIN GLOBAL MANDATORY STYLES -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="assets/css/plugins.css" rel="stylesheet" type="text/css" />
-    <link href="assets/css/users/register-3.css" rel="stylesheet" type="text/css" />
-    <!-- END GLOBAL MANDATORY STYLES -->
-    
-</head>
+<?php require ('header.php') ; ?>
+
+
 <body class="login">
     <form class="form-login">
         <div class="row">
@@ -37,18 +24,10 @@
                 </div>                    
                 <button type="submit" class="btn btn-gradient-dark btn-rounded btn-block">Register</button>
                 <div class="forgot-pass text-center mt-4">
-                    <a href="user_login.html">Back</a>
+                    <a href="user_login.php">Back</a>
                 </div>
             </div>
         </div>
     </form>
-    
-    <!-- BEGIN GLOBAL MANDATORY SCRIPTS -->
-    <script src="assets/js/libs/jquery-3.1.1.min.js"></script>
-    <script src="assets/js/loader.js"></script>
-    <script src="bootstrap/js/popper.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    
-    <!-- END GLOBAL MANDATORY SCRIPTS -->
-</body>
-</html>
+
+    <?php require ('footer.php') ; ?>

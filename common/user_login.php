@@ -1,20 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
-    <title>Login-3 | Equation - Multipurpose Bootstrap Dashboard Template </title>
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico"/>
-    <!-- BEGIN GLOBAL MANDATORY STYLES -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="assets/css/plugins.css" rel="stylesheet" type="text/css" />
-    <link href="assets/css/users/login-3.css" rel="stylesheet" type="text/css" />
-    <!-- END GLOBAL MANDATORY STYLES -->    
-</head>
-<body class="login">
-php 
+<?php require ('header.php') ; ?>
+
     <form class="form-login">
         <div class="row">
             <div class="col-md-12 text-center mb-4">
@@ -42,25 +27,17 @@ php
                 </div>
                 <button type="submit" class="btn btn-gradient-dark btn-rounded btn-block">Sign in</button>
                 <div class="forgot-pass text-center mt-3">
-                    <a href="user_pass_recovery.html">Forgot Password ?</a>
+                    <a href="user_pass_recovery.php">Forgot Password ?</a>
                 </div>
 
             </div>
 
             <div class="col-md-12">
                 <div class="login-text text-center">
-                    <p class="mt-3 text-black">New Here? <a href="user_register.html" class="">Register </a> as new user !</p>
+                    <p class="mt-3 text-black">New Here? <a href="user_register.php" class="">Register </a> as new user !</p>
                 </div>
             </div>
         </div>
     </form>
     
-    <!-- BEGIN GLOBAL MANDATORY SCRIPTS -->
-    <script src="assets/js/libs/jquery-3.1.1.min.js"></script>
-    <script src="assets/js/loader.js"></script>
-    <script src="bootstrap/js/popper.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    
-    <!-- END GLOBAL MANDATORY SCRIPTS -->
-</body>
-</html>
+    <?php require ('footer.php') ; ?>

@@ -1,5 +1,5 @@
 <div class="pull-right">
 		<footer>
-           <p>Programmed by: John Kevin Lorayna BSIS 4-A</p>
+                <p>Developed by <a href="https://ruchiras.com">RUCHIRA</a></p>
         <footer>
 </div>

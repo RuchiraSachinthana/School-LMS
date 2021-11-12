@@ -3,7 +3,7 @@
 	body#login::before {
 
     content: "";
-    background: darkblue;
+    background: #a6a2da;
     position: absolute;
     top: 0;
     /* z-index: 1; */
