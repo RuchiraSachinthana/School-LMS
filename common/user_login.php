@@ -1,6 +1,6 @@
 <?php require ('header.php') ; ?>
 
-    <form class="form-login">
+    <form class="form-login" method="POST" action="./login_form.php">
         <div class="row">
             <div class="col-md-12 text-center mb-4">
                 <img alt="logo" src="assets/img/logo-5.png" class="theme-logo">
@@ -16,16 +16,16 @@
                 </div>
 
                 <label for="inputEmail" class="">User Name</label>                
-                <input type="email" id="inputEmail" class="form-control mb-4" placeholder="Login" required >                    
+                <input type="text" class="input-block-level" id="username" name="username" placeholder="Username" required>                  
                 <label for="inputPassword" class="">Password</label>                    
-                <input type="password" id="inputPassword" class="form-control mb-5" placeholder="Password" required>
+                <input type="password" class="input-block-level" id="password" name="password" placeholder="Password" required>
                 <div class="checkbox d-flex justify-content-center mb-3">
                     <div class="custom-control custom-checkbox mr-3">
                         <input type="checkbox" class="custom-control-input" id="customCheck1" value="remember-me">
                         <label class="custom-control-label" for="customCheck1">Remember me</label>
                     </div>
                 </div>
-                <button type="submit" class="btn btn-gradient-dark btn-rounded btn-block">Sign in</button>
+                <button data-placement="right" title="Click Here to Sign In" id="signin" name="login" class="btn btn-info" type="submit"></i> Sign in</button>
                 <div class="forgot-pass text-center mt-3">
                     <a href="user_pass_recovery.php">Forgot Password ?</a>
                 </div>
@@ -41,3 +41,8 @@
     </form>
     
     <?php require ('footer.php') ; ?>
+
+
+    <!-- <input type="text" class="input-block-level" id="username" name="username" placeholder="Username" required>
+						<input type="password" class="input-block-level" id="password" name="password" placeholder="Password" required>
+						<button data-placement="right" title="Click Here to Sign In" id="signin" name="login" class="btn btn-info" type="submit"><i class="icon-signin icon-large"></i> Sign in</button> -->
